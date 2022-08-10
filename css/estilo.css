@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: arial;
+    background-color: #F9DC5C;
     
 }
 
@@ -38,47 +39,13 @@ body{
 }
 /**aca termina css grid**/
 /** aca esta el css de el header**/
-.nav {
-    width: 100%;
-    padding: 0;
-    margin: 0;
-    display: flex;
-    position: fixed;
-   }
-   .menu{
-    display: flex;
-   background-color:  rgba(16, 0, 0, 0.534);
-   width: 100%;
-   margin: 0px;
-   padding: 5px;
-   }
-   .menu li{
-    text-decoration: none;
-    list-style: none;
-    font-style: arial;
-    
-    margin: 1px;
-    font-size: 12px;
-    
-   }
 
 
 
-.menu li a{
-    text-decoration: none;
-    list-style: none;
-    color: black;
-    font-weight: bold; 
-    background-color:#F9DC5C;
-    transition: background-color 10ms;
-    padding: 3px;
-    
-
-}
 /**aca finaliza el css del menu**/
 /**aca va lo que contiene el main**/
 
-h1{
+.h1baste{
     text-align: center;
     
     letter-spacing: 3px;
@@ -88,7 +55,7 @@ h1{
 
 }
 
-.parrafos{ font-size: 80%;
+.parrafosbaste{ font-size: 80%;
     margin-left: 2px;
     margin-right: 2px ;
     padding: 0px;
@@ -96,13 +63,13 @@ h1{
    
     
 }
-h2{ font-size: 120%;
+.h2baste{ font-size: 120%;
     line-height: 100%;
     text-align: center;
     
     letter-spacing: 3px; 
 }
-.section1{
+.section1baste{
     background-color: #F9DC5C;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -110,7 +77,7 @@ h2{ font-size: 120%;
     height: 250px;
     
 }
-.section2{
+.section2baste{
     background-color: #FAE588;
     padding-top: 1px;
     padding-bottom: 1px;
@@ -119,7 +86,7 @@ h2{ font-size: 120%;
     
     
 }
-.contenedor{
+.contenedorbaste{
     display: flex;
     flex-direction: row ;
     
@@ -128,15 +95,15 @@ h2{ font-size: 120%;
 
 
 }
-.box_parrafo{ 
+.box_parrafobaste{ 
     font-size: 10px;
-   line-height: 75%;
+   line-height: 100%;
      height: 80px;
     
     text-align: center ;
     background-color:  rgb(255, 233, 66);
     
-    width:519px;
+    width:100%;
     
     font-weight: bold;
     
@@ -154,8 +121,8 @@ img{width: 119px ;
    
    
 }
-.div_1{
-    line-height: 5%;
+.div_1baste{
+    line-height: 20px;
    border: 1px solid black;
     font-size: 12px;
 
@@ -170,7 +137,7 @@ img{width: 119px ;
  
 }
 
-.div_2{ line-height: 9%;
+.div_2baste { line-height: 15px;
      font-size:12px;
     border: 1px solid black;
 
@@ -220,26 +187,27 @@ img{width: 119px ;
         .grid_header{
             background-image: url(../images/imagenprincipalcel.jpeg);
         }
-    h1{
+    .h1baste{
         font-size: 180%;
         line-height: 100%;
     }
-    h2{
+    .h2baste{
         font-size: 180%;
         line-height: 100%;
     }
-    .parrafos{
+    .parrafosbaste{
         font-size: 120%;
         margin-left: 8px;
         margin-right: 8px ;
         padding: 10px;
     }
-    .box_parrafo{
+    .box_parrafobaste{
         
         
         font-size: 18px;
+        text-align: center;
       
-        line-height: 180%;
+        
        
         height: 180px;
        
@@ -255,9 +223,9 @@ img{width: 119px ;
        height:50px ;
        
     }
-    .div_1{
+    .div_1baste{
        
-        line-height: 50%;
+        line-height: 30px;
       
         border: 1px solid black;
         font-size: 20px;
@@ -265,9 +233,9 @@ img{width: 119px ;
      
     }
     
-    .div_2{
+    .div_2baste{
         
-        line-height: 50%;
+        line-height: 20px;
          font-size:20px;
         border: 1px solid black;
         
@@ -297,7 +265,7 @@ img{width: 119px ;
 
 
 }
-/**aqui finaliza el media querris de tablet de la seccion trabajos**/
+/**aqui finaliza el media querris de tablet de la pag prin**/
 
 
 /** aqui comienza la media querry para escritorio de la pagina principal**/
@@ -338,23 +306,23 @@ img{width: 119px ;
         grid-row: 8/9;
     }
 
-h1{
+.h1baste{
     line-height: 60px;
     font-size: 220%;
     
 }
-h2{
+.h2baste{
     line-height: 60px;
     font-size: 220%;
 }
-.parrafos{
+.parrafosbaste{
     font-size: 180%;
     padding-left: 200px;
     padding-right: 200px;
     margin: 30px;
 }
 
-.section1{
+.section1baste{
   
     padding-top: 10px;
     padding-bottom: 10px;
@@ -362,7 +330,7 @@ h2{
     height: 450px;
     
 }
-.section2{
+.section2baste{
  
     padding-top: 1px;
     padding-bottom: 1px;
@@ -371,7 +339,7 @@ h2{
     
     
 }
-.box_parrafo{
+.box_parrafobaste{
     
     line-height: 150%;
     height: 250px;
@@ -390,7 +358,7 @@ img{
    height:40px ;
    
 }
-.div_1{
+.div_1baste{
    
     line-height: 100%;
     font-size: 120%;
@@ -398,7 +366,7 @@ img{
  
 }
 
-.div_2{
+.div_2baste{
     line-height: 100%;
     border-left:1px solid black ;
     border-right: 1px solid black;
@@ -1051,10 +1019,15 @@ font-size: 25px;
   
 }
 
-
+nav{
+    background-color: #F9DC5C;
+}
 
    
-
+.imgbaste{
+    width: 100%;
+    height: 70%;
+}
 
 
 

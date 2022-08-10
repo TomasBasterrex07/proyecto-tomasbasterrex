@@ -5,20 +5,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../css/estilo.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Presupuestos</title>
 </head>
 <body>
   <div class="div_container_3">
      <div class="grid_header3">
        <header>
-        <nav class="nav">
-          <ul class="menu">
-            <li><a href="../index.html">inicio</a></li>
-            <li><a href="../pages/nuestrotaller.html">Nuestro Taller</a></li>
-            <li><a href="../pages/trabajos.html">Trabajos</a></li>
-            <li><a href="../pages/presupuestos.html">Presupuestos</a></li>
-            <li><a href="../pages/contactanos.html">Contactanos</a></li>
-          </ul>
+        <nav class="navbar navbar-expand-lg navbar-light ">
+          <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a href="../index.html" class="nav-link active" aria-current="page" href="#">inicio</a>
+                </li>
+                <li class="nav-item">
+                  <a href="./nuestrotaller.html"  class="nav-link" >Nuestro Taller</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./trabajos.html">Trabajos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./presupuestos.html" >Presupuestos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="./contactanos.html" >Contacto</a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </nav>
        </header>
       </div>
@@ -27,7 +46,7 @@
       <main class="main_pres">
         <section class="cont_titulo"> 
            <div class="titulo_pre">
-             <h2>Tenes un proyecto en mente para tu casa tanto exterior como interior 
+             <h2 class="h2baste">Tenes un proyecto en mente para tu casa tanto exterior como interior 
              contactanos de que se trata tu proyecto detallando medidas,
              tipo de madera, y a la brevedad nos comunicaremos con vos detallando presupuestos y 
              mas detalles del proyecto y/o productos.</h2>
@@ -130,22 +149,30 @@
       </main>
     <div class="grid_ejemplos">
       <aside class="aside">
-        <Article class="aside_ejemplos">
-          <h2>Ejemplos de trabajos con guayubira</h2>
-          <img src="../images/guayubira.jpg" alt="guayubira" class="imgeje">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="../images/guayubira.jpg" class="d-block imgbaste" alt="...">
+            </div>
           
-        </Article>
-    
-        <Article class="aside_ejemplos">
-          <h2>Ejemplos de trabajos con Zoita</h2>
-          <img src="../images/zoita.jpg" alt="zoita" class="imgeje">
-        </Article>
-    
-        <Article class="aside_ejemplos">
-          <h2>Ejemplos de trabajos con melamina</h2>
-          <img src="../images/melamina4.jpg" alt="melamina" class="imgeje">
-        </Article>
-        
+            <div class="carousel-item">
+              <img src="../images/melamina4.jpg" class="d-block imgbaste" alt="...">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
     
     
       </aside>
@@ -153,11 +180,11 @@
     </div>
     <div class=grid_footer2>
       <footer>
-         <div class="div_1">
+         <div class="div_1baste">
              <img src="../images/whatsapp.png" alt="logo whatsapp" class="fotowsp">
              <p>+54 011 3334-4344</p>
            </div>
-           <div class="div_2">
+           <div class="div_2baste">
              <img src="../images/logo de texto.png" alt="" class="fototext">
              <p>Snekker vasco carpinteria de calidad</p>
            </div>
@@ -166,6 +193,7 @@
     </div>
   </div>
 
-    
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+ 
 </body>
 </html>
